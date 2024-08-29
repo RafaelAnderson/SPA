@@ -1,0 +1,17 @@
+.banner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aqua;
+    padding: 1rem 0;
+}
+
+.banner img {
+    width: 30%;
+}
+
+@media only screen and (max-width: 1050px) {
+    .banner img {
+        width: 70%;
+    }
+}
